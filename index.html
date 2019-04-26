@@ -4,19 +4,20 @@
         <title>CSS flexbox</title>
         <link href="style.css" rel="stylesheet" type="text/css"/>
         <link rel="icon" type="image/png" href="./favicon.png">
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css">
     </head>
     <body>
         <nav id="navbar">
             <header>CSS Animations Documentation</header>
             <ul>
-                <li><a class="nav-link" href="#What_are_CSS_Animations?">What are CSS Animations?</a></li>
-                <li><a class="nav-link" href="#The_@keyframes_Rule?">The @keyframes Rule</a></li>
-                <li><a class="nav-link" href="#Delay_an_Animation">Delay an Animation</a></li>
-                <li><a class="nav-link" href="#Set_How_Many_Times_an_Animation_Should_Run">Set How Many Times an Animation Should Run</a></li>
-                <li><a class="nav-link" href="#Run_Animation_in_Reverse_Direction_or_Alternate_Cycles">Run Animation in Reverse Direction or Alternate Cycles</a></li>
-                <li><a class="nav-link" href="#Specify_the_Speed_Curve_of_the_Animation">Specify the Speed Curve of the Animation</a></li>
-                <li><a class="nav-link" href="#Specify_the_fill-mode_For_an_Animation">Specify the fill-mode For an Animation</a></li>
-                <li><a class="nav-link" href="#Animation_Shorthand_Property">Animation Shorthand Property</a></li>
+                <li><a class="nav-link" href="#What_are_CSS_Animations?" rel="internal">What are CSS Animations?</a></li>
+                <li><a class="nav-link" href="#The_@keyframes_Rule?" rel="internal">The @keyframes Rule</a></li>
+                <li><a class="nav-link" href="#Delay_an_Animation" rel="internal">Delay an Animation</a></li>
+                <li><a class="nav-link" href="#Set_How_Many_Times_an_Animation_Should_Run" rel="internal">Set How Many Times an Animation Should Run</a></li>
+                <li><a class="nav-link" href="#Run_Animation_in_Reverse_Direction_or_Alternate_Cycles" rel="internal">Run Animation in Reverse Direction or Alternate Cycles</a></li>
+                <li><a class="nav-link" href="#Specify_the_Speed_Curve_of_the_Animation" rel="internal">Specify the Speed Curve of the Animation</a></li>
+                <li><a class="nav-link" href="#Specify_the_fill-mode_For_an_Animation" rel="internal">Specify the fill-mode For an Animation</a></li>
+                <li><a class="nav-link" href="#Animation_Shorthand_Property" rel="internal">Animation Shorthand Property</a></li>
             </ul>
         </nav>
         <main id="main-doc">
@@ -245,7 +246,7 @@
                         <li><code class="code_in_text">backwards</code> - The element will get the style values that is set by the first keyframe (depends on animation-direction), and retain this during the animation-delay period</li>
                         <li><code class="code_in_text">both</code> - The animation will follow the rules for both forwards and backwards, extending the animation properties in both directions</li>
                     </ul>
-                    <p>The following example lets the lt;div&gt; element retain the style values from the last keyframe when the animation ends:</p>
+                    <p>The following example lets the &lt;div&gt; element retain the style values from the last keyframe when the animation ends:</p>
                     <code>
                         div {
                             width: 100px;
@@ -257,7 +258,7 @@
                             animation-fill-mode: forwards;
                             }
                     </code>
-                    <p>The following example lets the lt;div&gt; element get the style values set by the first keyframe before the animation starts (during the animation-delay period):</p>
+                    <p>The following example lets the &lt;div&gt; element get the style values set by the first keyframe before the animation starts (during the animation-delay period):</p>
                     <code>
                         div {
                             width: 100px;
@@ -270,7 +271,7 @@
                             animation-fill-mode: backwards;
                             }
                     </code>
-                    <p>The following example lets the lt;div&gt; element get the style values set by the first keyframe before the animation starts, and retain the style values from the last keyframe when the animation ends:</p>
+                    <p>The following example lets the &lt;div&gt; element get the style values set by the first keyframe before the animation starts, and retain the style values from the last keyframe when the animation ends:</p>
                     <code>
                         div {
                             width: 100px;
@@ -307,8 +308,10 @@
                     </code>
                 </article>
             </section>
-
         </main>
+        <footer>
+            <p>*All the documentation in this page is taken from <a href="https://www.w3schools.com/css/css3_animations.asp" target="_blank">w3schools.com</a>*</p>
+        </footer>
 
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>
