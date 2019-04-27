@@ -77,24 +77,24 @@
                     </code>
                     <p>The following example will change both the background-color and the position of the &lt;div&gt; element when the animation is 25% complete, 50% complete, and again when the animation is 100% complete:</p>
                     <code>
-        /* The animation code */
-        @keyframes example {
-            0%   {background-color:red; left:0px; top:0px;}
-            25%  {background-color:yellow; left:200px; top:0px;}
-            50%  {background-color:blue; left:200px; top:200px;}
-            75%  {background-color:green; left:0px; top:200px;}
-            100% {background-color:red; left:0px; top:0px;}
-        }
-        
-        /* The element to apply the animation to */
-        div {
-            width: 100px;
-            height: 100px;
-            position: relative;
-            background-color: red;
-            animation-name: example;
-            animation-duration: 4s;
-        }
+/* The animation code */
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/* The element to apply the animation to */
+div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
                     </code>
                 </article>
             </section>
@@ -301,9 +301,9 @@
                     </code>
                     <p>The same animation effect as above can be achieved by using the shorthand <code class="code_in_text">animation</code> property:</p>
                     <code>
-        div {
-            animation: example 5s linear 2s infinite alternate;
-        }
+div {
+    animation: example 5s linear 2s infinite alternate;
+}
                     </code>
                 </article>
             </section>
