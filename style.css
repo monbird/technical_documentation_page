@@ -116,7 +116,11 @@ footer {
 @media only screen and (max-device-width: 600px) {
 
     body {
-        font-size: 18px;
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 45px;
     }
 
     #navbar {
@@ -129,11 +133,16 @@ footer {
     }
 
     code {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     section header {
+        font-size: 23px;
         text-align: center;
         padding: 60px 0 30px 0;
+    }
+
+    footer {
+        padding-left: 20px;
     }
 }
