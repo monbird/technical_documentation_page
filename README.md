@@ -5,4 +5,4 @@ This is the fourth of the Responsive Web Design Projects in Free Code Camp and t
 
 The page is designed to present a technical documentation of CSS Animations.
 
-You can find a list of requirements and further information on the project [here](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page) and you can view the completed project by clicking [here](http://monptasz.com/technical-documentation-page).
+You can find a list of requirements and further information on the project [here](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page) and you can view the completed project by clicking [here](http://monbird.com/technical-documentation-page).
